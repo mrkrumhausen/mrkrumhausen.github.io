@@ -20,10 +20,6 @@ h1 a:link {
 	margin-bottom: 0px;
 }
 
-h1 a:hover {
-	color: #ff0000;
-}
-
 h2 {
 	margin-top: 8px;
 	font-size: 17px;
@@ -64,7 +60,7 @@ a:active {
 }
 
 a:hover {
-	color: #ff0000;
+	color: #24c7b0;
 }
 
 ul a {
