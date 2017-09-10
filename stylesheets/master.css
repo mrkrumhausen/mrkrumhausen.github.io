@@ -8,9 +8,9 @@ body {
 
 section#card {
 	position: absolute;
-	bottom: 40%;
+	bottom: 20%;
 	left: 12%;
-	height: 100px;
+	height: 260px;
 }
 
 h1,
@@ -40,6 +40,7 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	margin-top: 27px;
+	margin-bottom: 27px;
 }
 
 ul li {
