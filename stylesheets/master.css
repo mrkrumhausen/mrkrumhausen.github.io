@@ -8,15 +8,16 @@ body {
 
 section#card {
 	position: absolute;
-	bottom: 20%;
+	bottom: 25%;
 	left: 12%;
 	height: 260px;
 }
 
 section#work {
 	position: absolute;
-	bottom: 10%;
+	top: 5%;
 	left: 12%;
+	height: 375px;
 }
 
 h1,
@@ -53,7 +54,7 @@ ul li {
 	padding: 0px;
 	margin-bottom: 3px;
 
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 19px;
 	font-weight: 100;
 
