@@ -13,17 +13,23 @@ section#card {
 	height: 260px;
 }
 
+section#work {
+	position: absolute;
+	bottom: 10%;
+	left: 12%;
+}
+
 h1,
 h1 a:link {
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 400;
 	margin-bottom: 0px;
 }
 
 h2 {
 	margin-top: 8px;
-	font-size: 18px;
-	font-weight: 100;
+	font-size: 24px;
+	font-weight: 200;
 	line-height: 22px;
 	max-width: 400px;
 }
@@ -39,14 +45,24 @@ ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	margin-top: 27px;
-	margin-bottom: 27px;
+	/* margin-top: 27px; */
 }
 
 ul li {
 	margin: 0px;
 	padding: 0px;
 	margin-bottom: 3px;
+
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 100;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+#work ul {
+	margin-bottom: 50px;
+
 }
 
 a:link,
@@ -57,7 +73,6 @@ a:active {
 	border: none;
 	text-decoration: none;
 
-	font-weight: 100;
 }
 
 a:hover {
@@ -65,10 +80,6 @@ a:hover {
 }
 
 ul a {
-	font-size: 14px;
-	line-height: 19px;
-
-	-webkit-font-smoothing: antialiased;
 }
 
 .img-circle {
