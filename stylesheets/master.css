@@ -16,8 +16,19 @@ section#card {
 section#work {
 	position: absolute;
 	top: 20%;
+	right: 6%;
 	left: 12%;
 	height: 375px;
+}
+
+@media only screen and (max-width: 736px) {
+    section#card {
+			left: 10%;
+    }
+		section#work {
+			top: 12%;
+			left: 10%;
+		}
 }
 
 h1,
