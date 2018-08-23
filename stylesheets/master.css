@@ -15,10 +15,10 @@ section#card {
 
 section#work {
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	right: 6%;
 	left: 12%;
-	height: 375px;
+	/* height: 375px; */
 }
 
 @media only screen and (max-width: 736px) {
