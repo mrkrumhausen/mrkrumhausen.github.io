@@ -69,3 +69,7 @@ Other needs that lead to a sense of control include:
 - Understanding of how things work.
 - Being able to predict what will happen
 - That people (including ourselves) and things are consistent.
+
+
+
+[Back to home](https://krumhausen.com)
