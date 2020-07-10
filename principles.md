@@ -12,9 +12,7 @@ As Ray Dalio explains in his book *[Principles](http://principles.com):*
 
 ------
 
-### Get what you want out of life
-
-- I want freedom and flexibility. You decide what you want to fight for
+### Don’t take things too seriously! 
 
 ### You cannot control* life
 
