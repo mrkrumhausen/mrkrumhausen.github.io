@@ -15,12 +15,12 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:locale" content="en_us"/>
-  <meta property="og:url" content="https://krumhausen.com"/>
+  <meta property="og:url" content="https://skrumhausen.com"/>
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="Sebastian Krumhausen"/>
   <meta property="og:title" content="Sebastian Krumhausen - Experienced Product Manager and Strategist" />
   <meta property="og:description" content="Experienced in agile product and new business development, Sebastian is adept in defining digital strategies and delivering data-informed experiences.">
-  <meta property="og:image" content="https://krumhausen.com/assets/SebastianKrumhausen.jpg" />
+  <meta property="og:image" content="https://skrumhausen.com/assets/SebastianKrumhausen.jpg" />
   <meta property="og:image:alt" content="Sebastian Krumhausen, Product Management">
 
   <!-- Twitter -->
@@ -29,7 +29,7 @@
   <meta name="twitter:creator" content="@krumhausen" />
   <meta name="twitter:title" content="Sebastian Krumhausen - Experienced Product Manager and Strategist" />
   <meta name="twitter:description" content="Experienced in agile product and new business development, Sebastian is adept in defining digital strategies and delivering data-informed experiences." />
-  <meta name="twitter:image" content="https://krumhausen.com/assets/SebastianKrumhausen.jpg" />
+  <meta name="twitter:image" content="https://skrumhausen.com/assets/SebastianKrumhausen.jpg" />
 
   <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -42,7 +42,7 @@
   <link href="stylesheets/master.css" media="all" rel="stylesheet" />
 </head>
 <body>
-  <section id="card">
+  <section id="person">
     <img class="img-circle" src="assets/SebastianKrumhausen.jpg" alt="Sebastian_Krumhausen">
     <h1><a href="index">Sebastian<br>Krumhausen</a></h1>
     <h2>Creator. Technologist. Human.</h2>
@@ -76,39 +76,51 @@
       "@context": "http://schema.org",
       "@type": "Person",
       "name": "Sebastian Krumhausen",
-      "url": "https://krumhausen.com",
+      "@id": "https://skrumhausen.com/#person",
+      "url": "https://skrumhausen.com",
+      "nationality": "Danish",
+      "gender": "Male",
+      "birthPlace" : {
+      	"@type": "Place",
+          "address": {
+        		"@type": "PostalAddress",
+      		"addressLocality": "Copenhagen",
+      		"addressRegion": "Hovedstaden",
+              "addressCountry": "Denmark"
+      	}
+      },
       "jobTitle": "Product manager and strategist",
-      "alumniOf": [
-      	"Technical University of Denmark",
-      	"University College London"
-          ],
-      "affiliation": [{
-    		"@type": "Organization",
-    		"name": "Mesh Firm",
-    		"sameAs": [
-    			"https://meshfirm.com",
-    			"https://www.linkedin.com/meshfirm"
-    		]
-      	},{
+      "Description": "Human",
+      "disambiguatingDescription": "Co-founder of Mesh Firm and MAET Pets",
+      "jobTitle": "General Manager",
+      "worksFor": [
+      	{
       		"@type": "Organization",
-      		"name": "MÆT Pets",
-      		"sameAs": [
+      		"name": "MAET Pets",
+          "sameAs": [
       			"https://maetpets.com",
-      			"https://www.linkedin.com/maetpets"
+      			"https://www.linkedin.com/maetpets",
+            "https://www.instagram.com/maet/",
+            "https://www.facebook.com/maetpets"
       		]
-        },{
-        "@type": "Organization",
-        "name": "Toko",
-        "sameAs": [
-          "https://tokodrinks.com",
-          "https://www.linkedin.com/tokodrinks"
-        ]
-        }],
-      "image": "https://krumhausen.com/assets/SebastianKrumhausen.jpg",
+      	}
+      ],
+      "alumniOf": [{
+    	 "@type": "CollegeOrUniversity",
+    	 "name": "Technical University of Denmark",
+    	 "sameAs": "https://en.wikipedia.org/wiki/Technical_University_of_Denmark"
+    	},{
+    	 "@type": "CollegeOrUniversity",
+    	 "name": "University College London",
+    	 "sameAs": "https://en.wikipedia.org/wiki/University_College_London"
+    	}],
+      "image": "https://skrumhausen.com/assets/SebastianKrumhausen.jpg",
       "sameAs": [
         "https://linkedin.com/in/krumhausen",
         "https://www.facebook.com/skrumhausen",
-        "https://github.com/mrkrumhausen"
+        "https://github.com/mrkrumhausen",
+        "https://twitter.com/krumhausen",
+        "https://medium.com/@skrumhausen"
        ]
   }
   </script>
